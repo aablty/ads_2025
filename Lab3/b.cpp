@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
 
-const int MAXN = 100000;
-long long a[MAXN];
-
 int main()
 {
     int n, k;
     cin >> n >> k;
+    long long a[100000];
 
     long long low = 0, high = 0;
     for (int i = 0; i < n; i++)
