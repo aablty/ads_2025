@@ -15,7 +15,7 @@ int main()
 {
     int n, f;
     cin >> n >> f;
-    int c[100005];
+    int c[100000];
     for (int i = 0; i < n; i++)
         cin >> c[i];
 
