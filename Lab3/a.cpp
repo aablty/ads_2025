@@ -20,8 +20,7 @@ int binary_search(int arr[], int n, int target)
 int main()
 {
     int T;
-    if (!(cin >> T))
-        return 0;
+    cin >> T;
     int *to_find = new int[T];
     for (int i = 0; i < T; ++i)
         cin >> to_find[i];
